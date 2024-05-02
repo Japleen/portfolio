@@ -5,31 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Japleen's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Custom CSS for lavender color */
+        .lavender-bg {
+            background-color: #E6E6FA;
+        }
+    </style>
 </head>
 
 <body>
-    <header>
-        <h1>Japleen's Portfolio</h1>
+    <header class="bg-primary text-white">
+        <div class="container text-center">
+            <h1>Japleen's Portfolio</h1>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I'm always trying to find a good balance in life, making sure I'm healthy and happy while I work. I really
-            believe in taking care of myself and my loved ones, like eating well and keeping clean. It's important for me to feel good
-            inside and out, so I spend time on things like eating right and looking after myself and my loved ones.
-        </p>
-        <p>
-            By profession, I'm a coder, working with technology every day. But I'm also an artist at heart. I love to
-            dance when I'm happy, listen to music when I'm feeling emotional, paint when I'm feeling creative, and write to
-            share my thoughts with others. I'm always trying to make the world a better place in my own way.
-        </p>
+    <section id="about" class="py-5 lavender-bg">
+        <div class="container">
+            <h2 class="mb-4">About Me</h2>
+            <p>
+                I'm always trying to find a good balance in life, making sure I'm healthy and happy while I work. I really
+                believe in taking care of myself and my loved ones, like eating well and keeping clean. It's important for me to feel good
+                inside and out, so I spend time on things like eating right and looking after myself and my loved ones.
+            </p>
+            <p>
+                By profession, I'm a coder, working with technology every day. But I'm also an artist at heart. I love to
+                dance when I'm happy, listen to music when I'm feeling emotional, paint when I'm feeling creative, and write to
+                share my thoughts with others. I'm always trying to make the world a better place in my own way.
+            </p>
+        </div>
     </section>
 
-    <footer>
-        <p>© 2024 Japleen Kaur. All rights reserved.</p>
+    <!-- <section id="image-gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-4">Image Gallery</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="image1.jpg" alt="Image 1" class="img-fluid">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="image2.jpg" alt="Image 2" class="img-fluid">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="image3.jpg" alt="Image 3" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section id="contact" class="py-5 lavender-bg">
+        <div class="container">
+            <h2 class="mb-4">Contact Me</h2>
+            <p>Feel free to reach out to me to discuss collaborations, projects, or just to say hello!</p>
+            <ul>
+                <li>Email:  Japleenkaurofficial@gmail.com</li>
+                <li>Instagram:  Japleenkaurofficial </li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/japleen-kaur-1374994b/" target="_blank">LinkedIn Profile</a></li>
+                <li>GitHub: <a href="https://github.com/Japleen" target="_blank"> GitHub Profile</a></li>
+                <li>Medium: <a href="https://medium.com/@japleen.kaur11" target="_blank"> Medium Profile</a></li>
+                <li>Medium: <a href="https://www.yourquote.in/japleen-kaur-dvhho/quotes" target="_blank"> Your Quote Profile</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="bg-primary text-white py-4 lavender-bg">
+        <div class="container text-center">
+            <p>© 2024 Japleen. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
