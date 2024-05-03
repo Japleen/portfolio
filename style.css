@@ -53,3 +53,31 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.bg-lavender {
+    background-color: #E6E6FA; /* Lavender color */
+}
+
+.profile-picture-container {
+    position: relative;
+  }
+  
+  .profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Hide file input */
+  input[type="file"] {
+    display: none;
+  }
+  
