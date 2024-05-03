@@ -80,4 +80,10 @@ footer {
   input[type="file"] {
     display: none;
   }
+
+  .custom-link {
+    color: black; 
+    /*text-decoration: underline; */
+
+  }
   
