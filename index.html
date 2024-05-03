@@ -16,6 +16,25 @@
             background-color: #E6E6FA;
         }
     </style>
+    <script>
+        interact('.profile-picture').draggable({
+            modifiers: [
+                interact.modifiers.restrictRect({
+                    restriction: 'parent'
+                })
+            ],
+            inertia: true,
+            onmove: function (event) {
+                var target = event.target;
+                var x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx;
+                var y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+    
+                target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+                target.setAttribute('data-x', x);
+                target.setAttribute('data-y', y);
+            }
+        });
+    </script>
 </head>
 
 <body>
@@ -94,6 +113,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@interactjs/interactjs@1.10.11/dist/interact.min.js"></script>
+
 
     <script src="script.js"></script>
 </body>
