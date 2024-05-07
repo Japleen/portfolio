@@ -1,13 +1,16 @@
-# Welcome to Japleen's Portfolio!
+# Welcome to Gupreet's Portfolio!
 
 ## About Me
 
-Welcome to my portfolio! I'm Japleen, a passionate coder, artist, and wellness enthusiast. This portfolio is a showcase of my journey—a blend of technology, creativity, and personal growth.
+Greetings,
 
+                I am a passionate individual driven by a relentless pursuit of excellence and attention to detail in every endeavor. 
+                My journey, anchored in mechanical engineering with a specialized experience on the structure and design of naval ships, has equipped me with a robust foundation in precision engineering and technical prowess. 
+                However, my trajectory extends far beyond traditional engineering domains, delving into the realms of technology, data science, and collaborative ventures.
 ## What You'll Find Here
 
 ### Projects
-Explore my coding projects, where I dive into the fascinating world of technology. From web development to software engineering, each project reflects my dedication to innovation and problem-solving.
+Explore my projects, where I dive into the fascinating world of technology. 
 
 ### Artwork
 Immerse yourself in my artistic endeavors. I channel my creativity into various forms of art. Art is not just a hobby—it's a way of life.
@@ -21,12 +24,7 @@ I'm always eager to collaborate, share ideas, and connect with fellow enthusiast
 
 ## Get in Touch
 
-- Email: Japleenkaurofficial@gmail.com
-- LinkedIn: https://www.linkedin.com/in/japleen-kaur-1374994b/
-- GitHub: https://github.com/Japleen 
-- Instagram: instagram.com/japleenkaurofficial 
-- Medium : https://medium.com/@japleen.kaur11
-- YourQuote : https://www.yourquote.in/japleen-kaur-dvhho/quotes
+- Email: Gur.Sin007l@gmail.com
 
 ## Acknowledgments
 
